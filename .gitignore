@@ -1,0 +1,15 @@
+# Rust
+server/target/
+target/
+.env
+*.swp
+*.swo
+*~
+
+# C#
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.nupkg
