@@ -6,7 +6,7 @@ services:
     environment:
       - API_KEY=${API_KEY:?API_KEY is required}
       - HOST=0.0.0.0
-      - PORT=8080
+      - PORT=19801
       - DATA_DIR=/data
       - DEFAULT_MAX_REPO_SIZE=${DEFAULT_MAX_REPO_SIZE:-1073741824}
       - MAX_UPLOAD_SIZE=${MAX_UPLOAD_SIZE:-104857600}
